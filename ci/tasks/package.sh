@@ -2,7 +2,7 @@
 
 set -e +x
 
-pushd attendee-service
+pushd attendee-service-source
   echo "Packaging JAR"
   ./mvnw clean package -DskipTests
 popd
